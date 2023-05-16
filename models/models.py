@@ -27,7 +27,6 @@ class Question(Base):
     answer = Column(String)
     created_at = Column(DateTime)
 
-
 Session = sessionmaker(bind=engine)
 
 
