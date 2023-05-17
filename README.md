@@ -1,7 +1,6 @@
 # questions_api
 API for saving questions in database from another public API (written with FastAPI Python)
 
-# Задача №1
 Сервис позволяет сохранять вопросы из открытого API https://jservice.io/api/random в базу данных, 
 развернутую в Docker. Для сохранения определенного количества вопросов с необходимо сделать POST запрос
 на localhost/question, указав в теле количество требуемых вопросов:
