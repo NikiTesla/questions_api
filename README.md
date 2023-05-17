@@ -1,4 +1,4 @@
-# fastapi_test
+# questions_api
 API for saving questions in database from another public API (written with FastAPI Python)
 
 # Задача №1
