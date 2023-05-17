@@ -4,10 +4,9 @@ from pydantic import BaseModel
 from models.models import Question, save_question
 import requests
 import json
-import pickle
 
 app = FastAPI(
-    title="Testing FastAPI"
+    title="questions api"
 )
 
 class QuestionRequest(BaseModel):

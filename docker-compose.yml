@@ -1,7 +1,7 @@
 version: '3.8'
 services:
   db:
-      container_name: fastapi_test
+      container_name: questions
       image: postgres:15
       restart: always
       environment:
